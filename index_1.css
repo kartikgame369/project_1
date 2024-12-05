@@ -1,0 +1,92 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #0a0a0a; /* Black background */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo */
+.logo {
+    transform: scale(0.3);
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+/* Nav links */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #4CAF50; /* Hover color */
+}
+
+/* Nav icons */
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon, .cart-icon {
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+}
+
+.phone {
+    color: #4CAF50; /* Green color for phone */
+    margin-right: 10px;
+}
+
+.book-now {
+    background-color: #4CAF50; /* Green background */
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.book-now:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.team-mate{
+    display: flex;
+    justify-content: space-evenly;
+    
+}

@@ -1,0 +1,51 @@
+.heading{
+    color: lightgreen;
+}
+.upload-dataset{
+    border: 2px solid lightgreen;
+    color: lightgreen;
+    font-weight: 200;
+    padding-block:3px;
+}
+.import_files{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-block:15px;
+
+}
+
+.dataset .box1{
+    width: 250px;
+
+}
+
+.process_you_data{
+    transform: translate(-50%, 50%);
+    left: 50%;
+    bottom: 30px;
+    background: lightgreen;
+    cursor: pointer;
+}
+
+.dataset .background-container{
+    background: url('./asset/BACKGROUND.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dataset{
+    background: url('./asset/texture.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bottom_left_tree{
+    bottom: 0;
+}
+.bottom_right_tree{
+    bottom: 10px;
+    right: 0;
+}
